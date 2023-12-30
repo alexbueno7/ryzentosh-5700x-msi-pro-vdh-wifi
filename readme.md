@@ -45,9 +45,6 @@ I would recommend you doing your own research and building your EFI by yourself 
 
 <h2 align="center">🔧 BIOS</h2>
 
-<details>
-    <summary><b>🔌 Settings</b></summary>
-
 | **Component**                  | **Model**                                    |
 |--------------------------------|----------------------------------------------|
 | Fast boot                      | Enabled                                      |
