@@ -21,6 +21,7 @@
 >
 > MLB, ROM, Serial Number, SystemUUID sections are specifically left empty. Use GenSMBIOS to generate SMBios.
 >
+>This use a BASE EFI for AMD Ryzen and Threadripper BY: https://luchina.com.br
 
 ## Overview
 Hi, this is the EFI file that is currently (mostly) working for me on *the current version of macOS Sonoma, wich is macOS 14.2.1, released on December 19.*. This is the version i am using with this EFI with Opencore version: 0.9.7.
@@ -100,13 +101,13 @@ Now this is the fun part.
 - [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
 
 # ACPI Tables - AMD
-DSDT
-SSDT-CPUR
-SSDT-EC
-SSDT-GPRW
-SSD-HPET
-SSDT-SBUS-MCHC
-SSDT-EC-USBX
+- DSDT
+- SSDT-CPUR
+- SSDT-EC
+- SSDT-GPRW
+- SSD-HPET
+- SSDT-SBUS-MCHC
+- SSDT-EC-USBX
 
 <h2 align="center">🔧 Tools</h2>
 
@@ -118,10 +119,9 @@ SSDT-EC-USBX
 This should be all you need.
 
 <h2 align="center">💡 Tips and alerts!</h2>
-Update **config.plist** in PlatformInfo > Generic with YOUR informations
-Please use [*genSMBIOS*](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) for generate values for above itens.
-<br>
-Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip) for configure/edit your config.plist.
+- Update **config.plist** in PlatformInfo > Generic with YOUR informations
+- Please use [*genSMBIOS*](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) for generate values for above itens.
+- Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip) for configure/edit your config.plist.
 
 ## Issues
 ### iServices not working?
