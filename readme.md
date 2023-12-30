@@ -13,6 +13,12 @@
 </p>
 <br>
 
+<p align="center">
+ <a href="https://www.apple.com/macos">
+  <img src="EFI/IMG/macos.png">
+ </a>
+</p>
+
 <h2></h2>
 
 > **Warning**
